@@ -6,7 +6,7 @@ import './App.css';
 
 
 import HomePage from './pages/homepage/homepage.comp';
-import ShopPage from './pages/shop/shop.comp.jsx';
+import ShopPage from './pages/shop/shop.comp';
 import Header from './components/header/header.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import { auth , createUserProfileDocument } from './firebase/firebase.utils';
